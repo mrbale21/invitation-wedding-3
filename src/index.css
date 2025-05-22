@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cal+Sans&family=Charm:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap");
+
+@import "tailwindcss";
+
+/* Font lokal */
+@font-face {
+  font-family: "Adelio-Darmanto";
+  src: url("/assets/font/Adelio-Darmanto.otf") format("opentype");
+}
+@font-face {
+  font-family: "Breathing";
+  src: url("/assets/font/Breathing.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GavolineDemo";
+  src: url("/assets/font/GavolineDemo.otf") format("truetype");
+}
+
+/* index.css atau tailwind.css */
+body,
+#root {
+  background-color: #f4f6f7;
+  color: #51504e; /* opsional */
+}
+
+@theme {
+  --font-adelio-darmanto: "Adelio-Darmanto", sans-serif;
+  --font-breathing: "Breathing", sans-serif;
+  --font-gavolinedemo: "GavolineDemo", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --font-sacramento: "Sacramento", sans-serif;
+  --font-cal-sans: "Cal-Sans", "serif";
+  --font-akaya-kanadaka: "Akaya-Kanadaka", sans-serif;
+  --font-bodoni-moda: "Bodoni-Moda", sans-serif;
+  --font-playfair-display: "Playfair-Display", sans-serif;
+  --font-charm: "Charm", sans-serif;
+  --color-primary: #1c2e4a;
+  --color-secondary: #52677d;
+  --color-neutral: #c0c8ca;
+  --color-accent: #f4f6f7;
+  --color-disco: #567c8d;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Tambahkan di Tailwind config atau CSS biasa */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+  -webkit-animation: scroll 30s linear infinite;
+}
+
+.animate-fadeDown {
+  animation: fadeDown 1s ease-out forwards;
+  -webkit-animation: fadeDown 1s ease-out forwards;
+}
+
+@keyframes fadeDown {
+  0% {
+    clip-path: inset(0 0 100% 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.animate-fadeLeft {
+  animation: fadeLeft 1s ease-out forwards;
+  -webkit-animation: fadeLeft 1s ease-out forwards;
+}
+
+@keyframes fadeLeft {
+  0% {
+    clip-path: inset(0 0 0 100%);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.animate-fadeRight {
+  animation: fadeRight 1s ease-out forwards;
+  -webkit-animation: fadeRight 1s ease-out forwards;
+}
+
+@keyframes fadeRight {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spin-slow 7s linear infinite;
+  -webkit-animation: spin-slow 7s linear infinite;
+}
