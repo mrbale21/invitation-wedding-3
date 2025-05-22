@@ -48,10 +48,7 @@ function Gallery() {
           </span>{" "}
           Gallery
         </div>
-        <div
-          data-aos="zoom-out"
-          className="py-12 w-full flex flex-col justify-center items-center text-primary bg-secondary border border-accent rounded-tl-[80px]"
-        >
+        <div className="py-12 w-full flex flex-col justify-center items-center text-primary bg-secondary border border-accent rounded-tl-[80px]">
           <p className="text-xs text-accent/80 -mt-3 pb-2">
             Geser, untuk melihat poto lainnya!
           </p>
