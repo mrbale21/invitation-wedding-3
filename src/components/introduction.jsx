@@ -42,13 +42,13 @@ function Introduction() {
             initial={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.5 }}
-            className="relative flex flex-col py-20 justify-end items-center h-full w-96 bg-[url(assets/image/bg-first.webp)] bg-cover bg-bottom"
+            className="relative flex flex-col gap-20 py-20 justify-center items-center h-full w-96 bg-[url(assets/image/bg-first.webp)] bg-cover bg-bottom"
           >
             <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/70 z-0" />
             <div className="z-10 py-2 flex flex-col justify-end items-center">
               <h1
                 ref={textRef}
-                className="text-accent text-sm font-extrabold font-cal-sans transform"
+                className="mt-20 text-accent text-sm font-extrabold font-cal-sans transform"
               >
                 The Wedding Of
               </h1>
@@ -58,12 +58,12 @@ function Introduction() {
             </div>
             <div className="z-10 grid place-items-center font-cal-sans gap-2 mt-5">
               <h4 className="text-sm">Dear,</h4>
-              <h3 className="font-semibold mb-4 text-gray-400">
+              <h3 className="font-semibold mb-4 text-accent">
                 {name ? name : "Tamu Undangan"}
               </h3>
               <button
                 onClick={handleOpenInvitation}
-                className="flex items-center  gap-1 bg-accent text-black text-xs hover:bg-white/80 p-1 px-2 rounded-md shadow shadow-accent border border-black"
+                className="flex items-center  gap-1 bg-transparent text-accent text-xs hover:bg-accent/20 p-1 px-2 rounded-md shadow shadow-accent border border-accent/30"
               >
                 <IoMdMailOpen />
                 Buka Undangan

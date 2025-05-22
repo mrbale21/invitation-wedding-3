@@ -9,28 +9,22 @@ const images = [
     id: 2,
     img: "/assets/image/gallery-2.webp",
   },
+
   {
     id: 3,
-    img: "/assets/image/gallery-3.webp",
-  },
-  {
-    id: 4,
     img: "/assets/image/gallery-4.webp",
   },
   {
-    id: 5,
+    id: 4,
     img: "/assets/image/gallery-5.webp",
   },
   {
-    id: 6,
+    id: 5,
     img: "/assets/image/gallery-6.webp",
   },
+
   {
-    id: 7,
-    img: "/assets/image/gallery-7.webp",
-  },
-  {
-    id: 8,
+    id: 6,
     img: "/assets/image/gallery-8.webp",
   },
 ];

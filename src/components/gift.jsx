@@ -51,7 +51,7 @@ function Gift() {
           <div
             data-aos="zoom-in"
             data-aos-delay="200"
-            className="font-cal-sans text-[12px] pb-6 pt-3 text-secondary px-6"
+            className="font-cal-sans text-[11px] pb-6 pt-3 text-secondary px-6"
           >
             Doa restu keluarga, sahabat, serta rekan-rekan semua di pernikahan
             kami sudah sangat cukup sebagai hadiah, namun jika memberi merupakan
@@ -75,7 +75,7 @@ function Gift() {
             {/* Gift Card Box */}
 
             <div
-              className={`-mt-4 bg-accent w-full pb-8 pt-4 px-10 flex flex-col items-center gap-6 rounded-b-md ${
+              className={`-mt-4 bg-accent w-full pb-8 pt-4 px-6 flex flex-col items-center gap-6 rounded-b-md ${
                 show1 ? "animate-fadeDown" : "opacity-0"
               }`}
             >
