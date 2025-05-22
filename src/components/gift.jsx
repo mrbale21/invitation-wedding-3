@@ -83,7 +83,7 @@ function Gift() {
                 data-aos="fade-down"
                 className="bg-accent border border-primary rounded-2xl shadow shadow-primary w-full"
               >
-                <div className="flex justify-between text-secondary p-4 gap-10">
+                <div className="flex justify-between text-secondary p-4 ">
                   <div className="grid justify-items-start py-6 pt-12">
                     {/* <h1 className="font-akaya-kanadaka font-semibold text-lg">
                     BCA
@@ -120,7 +120,7 @@ function Gift() {
                 data-aos="fade-down"
                 className="bg-accent border border-primary rounded-2xl shadow shadow-primary w-full"
               >
-                <div className="flex justify-between text-secondary p-4 gap-10">
+                <div className="flex justify-between text-secondary p-4 ">
                   <div className="grid justify-items-start py-6 pt-12">
                     {/* <h1 className="font-akaya-kanadaka font-semibold text-lg">
                     BCA

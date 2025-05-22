@@ -35,7 +35,7 @@ function Bride() {
             <div
               data-aos="fade-right"
               data-aos-delay="20"
-              className="bg-[url(assets/image/mempelai-pria.jpeg)] h-[230px] w-[200px] bg-contain bg-top flex justify-start items-end rounded-tr-[70px] rounded-br-[70px]"
+              className="bg-[url(assets/image/mempelai-pria.webp)] h-[230px] w-[200px] bg-contain bg-top flex justify-start items-end rounded-tr-[70px] rounded-br-[70px]"
             />
             <div className="p-4 pl-6 flex flex-col items-start w-full">
               <h1
@@ -68,7 +68,7 @@ function Bride() {
             <div
               data-aos="fade-left"
               data-aos-delay="20"
-              className="bg-[url(assets/image/mempelai-wanita.jpeg)] h-[230px] w-[200px] bg-contain bg-center flex items-end rounded-tl-[70px] rounded-bl-[70px]"
+              className="bg-[url(assets/image/mempelai-wanita.webp)] h-[230px] w-[200px] bg-contain bg-center flex items-end rounded-tl-[70px] rounded-bl-[70px]"
             />
             <div className="p-4 pr-6 flex flex-col items-end ml-10">
               <h1

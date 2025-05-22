@@ -58,7 +58,7 @@ function FirstPage() {
         >
           {/* Gambar Header dengan Carousel */}
 
-          <div className="relative w-full h-[420px] overflow-hidden flex items-end justify-center">
+          <div className="relative w-full h-[530px] overflow-hidden flex items-end justify-center">
             <img
               src={bgImages[currentBg]}
               alt="Background"

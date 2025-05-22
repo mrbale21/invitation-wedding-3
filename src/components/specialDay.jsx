@@ -38,7 +38,7 @@ function SpecialDay({ targetDate }) {
   return (
     <>
       <div className="">
-        <div className="h-[370px] w-full bg-secondary text-primary  ">
+        <div className="h-[400px] w-full bg-secondary text-primary  ">
           <div className="flex flex-col justify-start items-center">
             <div
               data-aos="fade-up"

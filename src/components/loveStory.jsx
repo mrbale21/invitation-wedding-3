@@ -50,7 +50,7 @@ const LoveStory = () => {
       </div>
 
       <div className="h-[350px] w-full flex justify-start items-start text-primary gap-2 border-2 border-t-0 border-primary">
-        <div className="h-full w-18 bg-primary flex items-center justify-center">
+        <div className="h-full w-16 bg-primary flex items-center justify-center">
           <p
             data-aos="fade-right"
             className="text-accent text-xl font-bold -rotate-90 whitespace-nowrap"
@@ -73,18 +73,18 @@ const LoveStory = () => {
             <img
               src={arrow1}
               alt="arrow1"
-              className={`h-[50px] object-contain z-10 ${
+              className={`h-[45px] object-contain z-10 ${
                 show1 ? "animate-fadeRight" : "opacity-0"
               }`}
             />
           </div>
 
           {/* Arrow 2 */}
-          <div className="col-span-2 items-center flex flex-col z-30 -mr-5 -mb-3">
+          <div className="col-span-2 items-center flex flex-col z-30 -mr-2 pt-4 -mb-5">
             <img
               src={arrow2}
               alt="arrow2"
-              className={`h-[100px] object-contain z-10 ${
+              className={`h-[80px] object-contain z-10 ${
                 show2 ? "animate-fadeLeft" : "opacity-0"
               }`}
             />
@@ -92,14 +92,14 @@ const LoveStory = () => {
 
           {/* Card 1 */}
           <div
-            className={`justify-self-end content-end h-20 w-40 bg-secondary p-1 text-center rounded-md shadow-2xl border border-primary shadow-gray-500 ${
+            className={`justify-self-end content-center h-18 w-35 bg-secondary p-1 text-center rounded-md shadow-2xl border border-primary shadow-gray-500 ${
               show3 ? "animate-fadeDown" : "opacity-0"
             }`}
           >
-            <h2 className="text-sm font-akaya-kanadaka font-semibold">
+            <h2 className="text-xs font-akaya-kanadaka font-semibold">
               Awal Bertemu
             </h2>
-            <p className="text-[8px] font-akaya-kanadaka">
+            <p className="text-[7px] font-akaya-kanadaka">
               Kami pertama kali bertemu di sebuah kafe kecil. Tanpa disangka,
               percakapan kecil saat itu menjadi awal dari cerita panjang yang
               indah.
@@ -108,14 +108,14 @@ const LoveStory = () => {
 
           {/* Card 2 */}
           <div
-            className={`col-span-3 h-18 w-40 bg-secondary p-1 text-center rounded-md shadow-2xl border border-primary shadow-gray-500 ${
+            className={`col-span-3 content-center h-16 mt-2 w-35 bg-secondary p-1 text-center rounded-md shadow-2xl border border-primary shadow-gray-500 ${
               show4 ? "animate-fadeDown" : "opacity-0"
             }`}
           >
-            <h2 className="text-sm font-akaya-kanadaka font-semibold">
+            <h2 className="text-xs font-akaya-kanadaka font-semibold">
               Perjalanan Bersama
             </h2>
-            <p className="text-[8px] font-akaya-kanadaka">
+            <p className="text-[7px] font-akaya-kanadaka">
               Hari-hari bersama dipenuhi tawa, perjalanan, dan pembelajaran.
               Setiap momen membawa kita lebih dekat.
             </p>
@@ -123,28 +123,28 @@ const LoveStory = () => {
 
           {/* Arrow 3 */}
           <div
-            className={`col-span-2 -mr-3 justify-self-center z-30 ${
+            className={`col-span-2 -ml-3 justify-self-center z-30 ${
               show5 ? "animate-fadeRight" : "opacity-0"
             }`}
           >
             <img
               src={arrow3}
               alt="arrow3"
-              className="h-[70px] object-contain z-10"
+              className="h-[60px] object-contain z-10"
             />
           </div>
 
           {/* Card 3 */}
-          <div className="pt-3">
+          <div className="pt-5">
             <div
-              className={`justify-self-end content-center h-18 w-40 bg-secondary p-1  text-center rounded-md shadow-2xl border border-primary shadow-gray-500 ${
+              className={`justify-self-end content-center h-16 w-35 bg-secondary p-1 text-center rounded-md shadow-2xl border border-primary shadow-gray-500 ${
                 show6 ? "animate-fadeRight" : "opacity-0"
               }`}
             >
-              <h2 className="text-sm font-akaya-kanadaka font-semibold">
+              <h2 className="text-xs font-akaya-kanadaka font-semibold">
                 Komitmen
               </h2>
-              <p className="text-[8px] font-akaya-kanadaka">
+              <p className="text-[7px] font-akaya-kanadaka">
                 Di titik ini, kami sadar bahwa ini bukan sekadar kisah, tapi
                 awal dari kehidupan bersama yang kami impikan.
               </p>

@@ -4,7 +4,7 @@ import bgAkad from "../assets/image/bg-akad.webp";
 
 const EventAkad = () => {
   return (
-    <div className="p-6 pt-12 bg-neutral">
+    <div className="p-4 pt-12 bg-neutral">
       <div
         data-aos="fade-right"
         className=" text-primary flex items-center justify-center gap-1 font-gavolinedemo text-3xl -mt-2 mb-6 "
@@ -44,7 +44,7 @@ const EventAkad = () => {
               <h4 className="">2025</h4>
             </div>
           </div>
-          <div className="text-center w-[270px] h-0.5 bg-gray-400 -mt-3 ml-4" />
+          <div className="text-center w-8/9 h-0.5 bg-gray-400 -mt-3 ml-4" />
           <div className="pt-2 px-4 font-cal-sans">
             <div className="flex items-center gap-1">
               {" "}
@@ -52,8 +52,9 @@ const EventAkad = () => {
               <h2 className="text-sm">Pukul : 09.00 WIB - Selesai</h2>
             </div>
             <h1 className="py-1 font-semibold text-lg">Lokasi Acara</h1>
-            <h5 className="text-sm">
-              Kp. Hambalang Rt 08/03, Desa Hambalang, Kec. Citeureup, Bogor
+            <h5 className="text-xs">
+              Kp. Hambalang Rt 08/03, Desa Hambalang, <br /> Kec. Citeureup,
+              Bogor
             </h5>
             <button className="flex items-center mt-6 bg-primary text-accent p-1 px-3 gap-1 rounded-tr-2xl text-sm">
               {" "}

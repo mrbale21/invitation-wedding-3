@@ -5,7 +5,7 @@ import Credit from "./credit";
 function Footer() {
   return (
     <>
-      <div className="py-12 px-8">
+      <div className="py-12 px-4">
         <div className="w-full text-accent/70 flex flex-col items-center justify-start ">
           {/* Bagian Atas - Gambar Mempelai */}
           <div
